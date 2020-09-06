@@ -1,13 +1,15 @@
 {
-  "name": "sars.v1",
+  "name": "repo",
   "version": "1.0.0",
-  "description": "Backend for sars.v1 webapp",
+  "description": "Backend for repo webapp",
   "main": "index.js",
   "scripts": {
+    "start":"node index/js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-"author": "Tescoco",
-  "license": "ISC",
+  "engines":{
+    "node":"12.16.1"
+  }, 
   "dependencies": {
     "body-parser": "^1.19.0",
     "cookie-parser": "^1.4.5",
@@ -23,5 +25,16 @@
     "mongoose": "^5.9.22",
     "morgan": "^1.10.0",
     "uuid": "^8.2.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tescoco/Repo-Nodejs.git"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "author": "Tescoco",
+  "license": "ISC"
 }
